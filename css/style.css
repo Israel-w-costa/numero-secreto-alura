@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
 }
 
-h1 {
+h1,h2 {
     font-size: 5em;
 }
 
@@ -37,5 +37,5 @@ h3 {
     border:2px solid var(--cor-primaria);
     font-size:5em;
     display: inline-block;
-    margin: 14x;
+    margin: 16px;
 }
