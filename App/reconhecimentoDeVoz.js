@@ -21,3 +21,12 @@ window.SpeechRecognition =
 }
 
 recognition.addEventListener ('end', () => recognition.start())
+
+
+const botaoJogar = document.querySelector ("#btn-joga")
+
+document.body.addEventListener ('click', (e) => {
+    if (e.target.id == 'btn-joga') {
+        window.location.reload()
+    }
+} )

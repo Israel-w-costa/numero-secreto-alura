@@ -4,6 +4,8 @@
     --font-family: 'Montserrat', sans-serif;
     --cor-de-fundo:#6F61C0;
     --cor-primaria:#D5FFE4;
+    --cor-secundaria :#8BE8E5;
+    --roxo-secundaria: #381887;
 }
 
 body {
@@ -38,4 +40,13 @@ h3 {
     font-size:5em;
     display: inline-block;
     margin: 16px;
+}
+
+.butao-jogar {
+    padding: 8px;
+    background-color: var(--cor-secundaria);
+    color: var(--roxo-secundaria);
+    margin-top: 10px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 6px;
 }
