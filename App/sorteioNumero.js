@@ -1,5 +1,5 @@
 const numeroMenor = 1
-const numeroMaior = 100
+const numeroMaior = 1000
 const numeroSecreto = geradoNumero ()
 
 

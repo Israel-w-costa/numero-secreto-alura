@@ -50,3 +50,8 @@ h3 {
     border: 2px solid var(--cor-secundaria);
     border-radius: 6px;
 }
+
+.butao {
+    width:8em;
+    height: 4em;
+}
