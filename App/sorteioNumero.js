@@ -11,5 +11,3 @@ const elementoMenor = document.querySelector ("#numero-menor")
 elementoMenor.innerText = numeroMenor
 const elementoMaior = document.querySelector ("#numero-maior")
 elementoMaior.innerText = numeroMaior
-
-console.log (numeroSecreto)
